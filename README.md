@@ -67,6 +67,7 @@ contract('Contract', async () => {
 })
 ```
 
+You can find more examples of our contracts in use in our [test suite][tests].
 
 # About Hanzo
 [Hanzo][hanzo] enables businesses to launch and operate blockchain networks,
@@ -78,13 +79,12 @@ develop decentralized applications and deliver compelling experiences.
 [hanzo]:            https://hanzo.ai
 [solidity]:         https://solidity.readthedocs.io
 [truffle]:          http://truffleframework.com/
+[tests]:            https://github.com/hanzoai/contracts/tree/master/test
 
 [build-img]:        https://img.shields.io/travis/hanzoai/contracts.svg
 [build-url]:        https://travis-ci.org/hanzoai/contracts
 [chat-img]:         https://badges.gitter.im/join-chat.svg
-[chat-url]:         https://gitter.im/hanzoai/chat
-[coverage-img]:     https://coveralls.io/repos/hanzoai/contracts/badge.svg?branch=master&service=github
-[coverage-url]:     https://coveralls.io/github/hanzoai/contracts?branch=master
+[chat-url]:         https://gitter.im/hanzoai/contracts
 [dependencies-img]: https://david-dm.org/hanzoai/contracts.svg
 [dependencies-url]: https://david-dm.org/hanzoai/contracts
 [downloads-img]:    https://img.shields.io/npm/dm/contracts.svg
