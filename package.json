@@ -7,6 +7,7 @@
     "test": "test"
   },
   "dependencies": {
+    "coveralls": "^3.0.1",
     "solc": "^0.4.23",
     "truffle": "^4.1.8",
     "truffle-contract": "^3.0.5"
