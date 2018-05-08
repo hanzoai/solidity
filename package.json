@@ -1,0 +1,56 @@
+{
+  "name": "ryo-token",
+  "version": "1.0.0",
+  "description": "Smart contract code for RYO token",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "solc": "^0.4.23",
+    "truffle": "^4.1.8",
+    "truffle-contract": "^3.0.5"
+  },
+  "devDependencies": {
+    "solium": "^1.1.7",
+    "solium-plugin-security": "^0.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanzoai/ryo-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanzoai/ryo-token/issues"
+  },
+  "homepage": "https://github.com/hanzoai/ryo-token#readme",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true
+    },
+    "globals": {
+      "artifacts": true,
+      "assert": true,
+      "before": true,
+      "contract": true,
+      "it": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "rules": {
+      "no-console": "off",
+      "indent": ["error", 2],
+      "semi": [
+        2,
+        "never"
+      ]
+    }
+  }
+}

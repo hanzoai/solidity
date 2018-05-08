@@ -1,0 +1,9 @@
+{
+  "extends": "default",
+  "rules": {
+    "avoid-sha3": "warn",
+    "indent": false,
+    "no-unused-vars": true,
+    "var-name-mixedcase": true
+  }
+}
