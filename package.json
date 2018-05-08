@@ -1,7 +1,7 @@
 {
-  "name": "ryo-token",
+  "name": "@hanzo/contracts",
   "version": "0.1.0",
-  "description": "Smart contract code for RYO token",
+  "description": "Smart contracts developed for the Hanzo Platform",
   "main": "truffle.js",
   "directories": {
     "test": "test"

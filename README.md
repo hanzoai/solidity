@@ -7,12 +7,12 @@
 [![license][license-img]][license-url]
 [![chat][chat-img]][chat-url]
 
-> Smart contracts for the [Hanzo Platform][hanzo]
+> Smart contracts developed for the [Hanzo Platform][hanzo]
 
-This is a collection of [smart contracts][solidity] developed for the [Hanzo
-Platform][hanzo]. Developed to meet a broad range of needs, our contracts play
-well with [Truffle][truffle] and provide a cutting edge framework for smart
-contract development.
+This is a collection of [Solidity contracts][solidity] developed for the [Hanzo
+Platform][hanzo]. Designed to meet a broad range of needs, our contracts play
+well with [Truffle][truffle] and provide a cutting edge framework for contract
+development.
 
 ## Install
 ```bash
