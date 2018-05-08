@@ -68,7 +68,7 @@ contract('Contract', async () => {
 ```
 
 
-# Hanzo
+# About Hanzo
 [Hanzo][hanzo] enables businesses to launch and operate blockchain networks,
 develop decentralized applications and deliver compelling experiences.
 

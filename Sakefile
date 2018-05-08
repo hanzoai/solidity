@@ -1,0 +1,13 @@
+use 'sake-outdated'
+use 'sake-publish'
+use 'sake-version'
+
+task 'clean', 'clean project', ->
+  exec 'rm -rf build/contracts'
+
+task 'build', ['compile']
+task 'compile', 'build project', ->
+  exec 'truffle compile'
+
+task 'test', 'test project', ->
+  exec 'truffle test'

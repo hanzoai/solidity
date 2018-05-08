@@ -12,6 +12,10 @@
     "truffle-contract": "^3.0.5"
   },
   "devDependencies": {
+    "sake-cli": "^0.7.2",
+    "sake-outdated": "^0.3.0",
+    "sake-publish": "^0.1.17",
+    "sake-version": "^0.1.19",
     "solium": "^1.1.7",
     "solium-plugin-security": "^0.1.1"
   },
@@ -46,7 +50,10 @@
     },
     "rules": {
       "no-console": "off",
-      "indent": ["error", 2],
+      "indent": [
+        "error",
+        2
+      ],
       "semi": [
         2,
         "never"
