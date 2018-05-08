@@ -24,15 +24,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hanzoai/ryo-token.git"
+    "url": "git+https://github.com/hanzoai/contracts.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "contracts",
+    "ethereum",
+    "hanzo",
+    "smart",
+    "solidity",
+    "web3"
+  ],
+  "author": "Hanzo, Inc <hi@hanzo.ai> (https://hanzo.ai)",
+  "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/hanzoai/ryo-token/issues"
+    "url": "https://github.com/hanzoai/contracts/issues"
   },
-  "homepage": "https://github.com/hanzoai/ryo-token#readme",
+  "homepage": "https://github.com/hanzoai/contracts#readme",
   "eslintConfig": {
     "extends": "eslint:recommended",
     "env": {
