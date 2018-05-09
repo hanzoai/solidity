@@ -26,6 +26,6 @@ install:
   - npm install
 
 script:
-  - ganache-cli -p 7545 &
+  - ganache-cli &
   - truffle compile &
   - truffle test
