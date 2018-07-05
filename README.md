@@ -1,4 +1,4 @@
-# Contracts
+# hanzo-solidity
 
 [![npm][npm-img]][npm-url]
 [![build][build-img]][build-url]
@@ -16,18 +16,16 @@ development.
 
 ## Install
 ```bash
-$ npm install @hanzo/contracts
+$ npm install hanzo-solidity
 ```
 
 ## Usage
 Import the contracts you want to use:
 
 ```solidity
+import "hanzo-solidity/contracts/Versioned.sol";
 
-import "@hanzo/contracts/Owned.sol"
-import "@hanzo/contracts/Versioned.sol"
-
-contract Version is Owned {
+contract Version {
     function version() public pure returns (string) {
         return "1.0.0";
     }
@@ -79,17 +77,17 @@ develop decentralized applications and deliver compelling experiences.
 [hanzo]:            https://hanzo.ai
 [solidity]:         https://solidity.readthedocs.io
 [truffle]:          http://truffleframework.com/
-[tests]:            https://github.com/hanzoai/contracts/tree/master/test
+[tests]:            https://github.com/hanzoai/solidity/tree/master/test
 
-[build-img]:        https://img.shields.io/travis/hanzoai/contracts.svg
-[build-url]:        https://travis-ci.org/hanzoai/contracts
+[build-img]:        https://img.shields.io/travis/hanzoai/solidity.svg
+[build-url]:        https://travis-ci.org/hanzoai/solidity
 [chat-img]:         https://badges.gitter.im/join-chat.svg
-[chat-url]:         https://gitter.im/hanzoai/contracts
-[dependencies-img]: https://david-dm.org/hanzoai/contracts.svg
-[dependencies-url]: https://david-dm.org/hanzoai/contracts
-[downloads-img]:    https://img.shields.io/npm/dm/contracts.svg
-[downloads-url]:    http://badge.fury.io/js/contracts
-[license-img]:      https://img.shields.io/npm/l/@hanzo/contracts.svg
-[license-url]:      https://github.com/hanzoai/contracts/blob/master/LICENSE
-[npm-img]:          https://img.shields.io/npm/v/@hanzo/contracts.svg
-[npm-url]:          https://www.npmjs.com/package/@hanzo/contracts
+[chat-url]:         https://gitter.im/hanzoai/solidity
+[dependencies-img]: https://david-dm.org/hanzoai/solidity.svg
+[dependencies-url]: https://david-dm.org/hanzoai/solidity
+[downloads-img]:    https://img.shields.io/npm/dm/hanzo-solidity.svg
+[downloads-url]:    http://badge.fury.io/js/hanzo-solidity
+[license-img]:      https://img.shields.io/npm/l/hanzo-solidity.svg
+[license-url]:      https://github.com/hanzoai/solidity/blob/master/LICENSE
+[npm-img]:          https://img.shields.io/npm/v/hanzo-solidity.svg
+[npm-url]:          https://www.npmjs.com/package/hanzo-solidity
