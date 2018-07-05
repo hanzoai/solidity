@@ -1,7 +1,7 @@
 {
-  "name": "@hanzo/contracts",
+  "name": "hanzo-solidity",
   "version": "0.1.2",
-  "description": "Smart contracts developed for the Hanzo Platform",
+  "description": "Solidity contracts developed for the Hanzo Platform",
   "main": "truffle.js",
   "directories": {
     "test": "test"
@@ -26,11 +26,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hanzoai/contracts.git"
+    "url": "git+https://github.com/hanzoai/solidity.git"
   },
   "keywords": [
     "blockchain",
-    "contracts",
+    "solidity",
     "ethereum",
     "hanzo",
     "smart",
@@ -40,9 +40,9 @@
   "author": "Hanzo, Inc <hi@hanzo.ai> (https://hanzo.ai)",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/hanzoai/contracts/issues"
+    "url": "https://github.com/hanzoai/solidity/issues"
   },
-  "homepage": "https://github.com/hanzoai/contracts#readme",
+  "homepage": "https://github.com/hanzoai/solidity#readme",
   "eslintConfig": {
     "extends": "eslint:recommended",
     "env": {
