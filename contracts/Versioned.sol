@@ -1,6 +1,6 @@
-pragma solidity 0.4.23;
+pragma solidity 0.4.24;
 
-import "./Owned.sol";
+import "zeppelin-solidity/contracts/ownership/Ownable.sol";
 import "./Proxy.sol";
 
 
@@ -10,7 +10,7 @@ interface Version {
 }
 
 
-contract Versioned is Owned, Proxy {
+contract Versioned is Ownable, Proxy {
     event Upgrade(string version, address indexed predecessor, address indexed successor);
 
     // Update current version and store method configurations
